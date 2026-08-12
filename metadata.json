@@ -1,0 +1,6 @@
+{
+  "name": "DevPulse Portfolio & Analytics Studio",
+  "description": "Sleek minimalist developer portfolio with integrated blog, real-time engagement analytics, dark mode, multi-language support, RBAC authentication, and exportable reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
