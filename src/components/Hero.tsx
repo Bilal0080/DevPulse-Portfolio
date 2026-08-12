@@ -25,7 +25,7 @@ export const Hero: React.FC = () => {
       setDownloading(false);
       // Create mock resume file download
       const content = `DEV PULSE - SENIOR SYSTEMS ENGINEER & AI ARCHITECT
-Email: contact@devpulse.io | Portfolio: https://devpulse.io
+Email: bilaltanoli986@gmail.com | Portfolio: https://devpulse.io
 ----------------------------------------------------------------
 SUMMARY:
 Over 8 years of experience building resilient distributed systems, high-performance telemetry engines, and AI agent frameworks.

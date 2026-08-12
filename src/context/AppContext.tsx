@@ -85,7 +85,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   // Auth & Role
   const [user, setUser] = useState<User | null>(() => {
     const saved = localStorage.getItem('devpulse_user');
-    return saved ? JSON.parse(saved) : { id: 'usr-visitor', name: 'Guest Visitor', email: 'visitor@devpulse.io', role: 'visitor', mfaEnabled: false };
+    return saved ? JSON.parse(saved) : { id: 'usr-visitor', name: 'Guest Visitor', email: 'bilaltanoli986@gmail.com', role: 'visitor', mfaEnabled: false };
   });
   const [mfaPending, setMfaPending] = useState<boolean>(false);
 
@@ -213,7 +213,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     const newUser: User = {
       id: role === 'admin' ? 'usr-admin' : 'usr-visitor',
       name: role === 'admin' ? 'DevPulse Admin' : 'Guest Visitor',
-      email: role === 'admin' ? 'admin@devpulse.io' : 'visitor@devpulse.io',
+      email: role === 'admin' ? 'bilaltanoli986@gmail.com' : 'bilaltanoli986@gmail.com',
       role,
       mfaEnabled: role === 'admin',
       avatarUrl: role === 'admin' ? 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80' : undefined
