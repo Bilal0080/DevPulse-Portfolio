@@ -257,8 +257,8 @@ export const Contact: React.FC = () => {
               <div className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-amber-500 shrink-0 mt-0.5" />
                 <div>
-                  <p className="font-semibold text-slate-800 dark:text-slate-200">Base Location</p>
-                  <p className="text-slate-500 dark:text-slate-400">Governor House, Karachi</p>
+                  <p className="font-semibold text-slate-800 dark:text-slate-200">Initiative & Location</p>
+                  <p className="text-slate-500 dark:text-slate-400">Governor Sindh IT Initiative, Governor House Karachi</p>
                 </div>
               </div>
             </div>
